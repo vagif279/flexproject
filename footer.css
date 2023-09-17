@@ -1,0 +1,14 @@
+footer p{
+    text-align: center;
+    display: inline;
+    white-space: nowrap;
+    color: #959595;
+}
+footer p a{
+    white-space: nowrap;
+    color: #337ab7;
+}
+footer p a:hover{
+    color: blue;
+    text-decoration: underline;
+}

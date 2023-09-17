@@ -1,0 +1,66 @@
+.container a, a:link {
+    text-decoration: none;
+    color: #9d9d9d;
+    display: block;
+	font-size: 16px;
+	padding:10px 0;
+}
+.container a:visited {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+.container a:hover, a.active{
+	color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 5px;
+}
+ul ul{
+    display: none;
+}
+.serv:hover a {
+    display: block;
+}
+nav ul li:hover{
+    background-color: black;
+}
+.row{
+    display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+header .menu ul li{
+    display: inline-block;
+}
+.menu{
+    padding-right: 30%;
+}
+header{
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    width: 100%;
+}
+nav{
+    padding:0 15px;
+}
+form {
+    display: inline-block;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.form-group{
+    width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    form {
+        display: none;
+    }
+}
